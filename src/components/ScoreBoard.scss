@@ -1,0 +1,31 @@
+$x-color: rgb(24, 125, 90);
+$o-color: rgb(59, 55, 116);
+.scoreboard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20rem;
+  font-size: 1.5rem;
+  background-color: transparent;
+  margin: 3rem auto;
+}
+
+.score {
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+.xscore {
+  color: $x-color;
+  border-bottom: 3px solid $x-color;
+}
+
+.oscore {
+  color: $o-color;
+  border-bottom: 3px solid $o-color;
+}
+
+.inactive {
+  border-bottom: 5px solid transparent;
+}

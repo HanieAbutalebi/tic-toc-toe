@@ -1,0 +1,17 @@
+$x-color: rgb(24, 125, 90);
+$o-color: rgb(59, 55, 116);
+.reset-btn {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: $o-color;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 2rem auto;
+  display: block;
+
+&:hover {
+  background-color: $o-color;
+}
+}
+
